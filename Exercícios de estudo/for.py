@@ -13,5 +13,3 @@ print(f"tabuada do {numero} :")
 for valor in range (1,11,1):
     print(f"{numero} x {valor} = {numero * valor}")
 
-# exercicio 3:
-

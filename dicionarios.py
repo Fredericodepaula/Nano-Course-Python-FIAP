@@ -15,19 +15,3 @@
 # print(usuarios.get("chaves"))
 
 # Controle de usuários:
-
-usuarios = {}
-
-opcao= input("<I> para inserir o usuário\n"+
-             "<P> para pesquisar usuário\n"+
-             "<E> para excluir usuário\n"+  
-             "<L> para listar um usuário\n").upper()
-
-while opcao =="I" or opcao =="P" or opcao =="E" or opcao =="L":
-    if opcao == "I":
-        chave=input("Digite o login o usuário: ").upper()
-        nome=input("Digite o nome do usuário: ").upper()
-        data=input("Digite a ultima data de acesso: ")
-        usuarios[chave] = [nome , data]
-
-print(usuarios)
